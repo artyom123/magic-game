@@ -16,7 +16,7 @@ $(document).ready(function(){
         var anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $(anchor.attr('href')).offset().top
-        }, 777);
+        }, 400);
         e.preventDefault();
         return false;
     });
